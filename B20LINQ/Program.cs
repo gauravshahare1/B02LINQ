@@ -14,7 +14,7 @@ foreach (Student s in students)
     Console.WriteLine($"Roll Number : {s.RollNumber} Name : {s.Name} Gender : {s.Gender}");
 }
 
-// filter female students
+//filter female students
 //List<Student> femaleStudents = new List<Student>();
 //foreach (Student s in students)
 //{
@@ -34,11 +34,12 @@ var femaleStudents = students.Where(s => s.Gender.Equals("Female"));
 Console.WriteLine("*** Female Students ***");
 foreach (Student s in femaleStudents)
 {
-    Console.WriteLine($"Roll Number : {s.RollNumber} Name : {s.Name} Gender : {s.Gender}");
+    Console.WriteLine($"Roll Number : {s.RollNumber} Name : {s.Name} ");
 }
 
 //List<int> numbers1 = new List<int>();
 //HashSet<int> numbers2 = new HashSet<int>();
+Console.WriteLine("*******************************************\n\n\n\n");
 
 var names = students.Select(s => s.Name);
 foreach (string n in names)
@@ -46,11 +47,14 @@ foreach (string n in names)
     Console.Write($"{n} ");
 }
 
+
+
+
 Console.WriteLine();
 
-List<object> list = new List<object>() { 10, 20, "Vishal", '$', 20.5f, '#' };
-var result = list.OfType<char>();
-foreach (char item in result)
+List<object> a = new List<object>() { 10, 20, "Vishal", '$', 20.5f, '#' };
+var result = a.OfType<int>();
+foreach (int item in result)
 {
     Console.Write($"{item} ");
 }
