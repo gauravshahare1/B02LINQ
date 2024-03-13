@@ -15,11 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingOperator", "SortingO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectionOperator", "ProjectionOperator\ProjectionOperator.csproj", "{63A2D720-E68A-4C14-A915-3EE74F35521F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggrigation", "Aggrigation\Aggrigation.csproj", "{2A47D842-18F7-4BC4-82AA-498D07BA4390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggrigation", "Aggrigation\Aggrigation.csproj", "{2A47D842-18F7-4BC4-82AA-498D07BA4390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantifier", "Quantifier\Quantifier.csproj", "{9DD511E5-34B7-47B5-A31C-FDB3217EF092}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantifier", "Quantifier\Quantifier.csproj", "{9DD511E5-34B7-47B5-A31C-FDB3217EF092}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementOpretor", "ElementOpretor\ElementOpretor.csproj", "{91121627-D279-4BE1-B39D-E2DDBE7A8BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementOpretor", "ElementOpretor\ElementOpretor.csproj", "{91121627-D279-4BE1-B39D-E2DDBE7A8BF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerOperator", "SerOperator\SerOperator.csproj", "{FC403FE2-083E-4AAE-81A8-798DF6FC119E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartioningOperator", "PartioningOperator\PartioningOperator.csproj", "{565F89B7-D687-446E-ADEE-ACE883706224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenrationOperator", "GenrationOperator\GenrationOperator.csproj", "{19C4A864-40FB-4E16-9689-67E850E4680C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionOperator", "ConversionOperator\ConversionOperator.csproj", "{73CB1397-04B5-448A-BB91-4E4AB3613F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join", "Join\Join.csproj", "{8B1554DB-08FC-4815-AC6D-2CEBB00D89DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{91121627-D279-4BE1-B39D-E2DDBE7A8BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91121627-D279-4BE1-B39D-E2DDBE7A8BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91121627-D279-4BE1-B39D-E2DDBE7A8BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC403FE2-083E-4AAE-81A8-798DF6FC119E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC403FE2-083E-4AAE-81A8-798DF6FC119E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC403FE2-083E-4AAE-81A8-798DF6FC119E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC403FE2-083E-4AAE-81A8-798DF6FC119E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565F89B7-D687-446E-ADEE-ACE883706224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565F89B7-D687-446E-ADEE-ACE883706224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565F89B7-D687-446E-ADEE-ACE883706224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565F89B7-D687-446E-ADEE-ACE883706224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C4A864-40FB-4E16-9689-67E850E4680C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C4A864-40FB-4E16-9689-67E850E4680C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C4A864-40FB-4E16-9689-67E850E4680C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C4A864-40FB-4E16-9689-67E850E4680C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CB1397-04B5-448A-BB91-4E4AB3613F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CB1397-04B5-448A-BB91-4E4AB3613F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CB1397-04B5-448A-BB91-4E4AB3613F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CB1397-04B5-448A-BB91-4E4AB3613F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1554DB-08FC-4815-AC6D-2CEBB00D89DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1554DB-08FC-4815-AC6D-2CEBB00D89DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1554DB-08FC-4815-AC6D-2CEBB00D89DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1554DB-08FC-4815-AC6D-2CEBB00D89DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
